@@ -1,4 +1,7 @@
+var debug = require('debug')('guitar-theory')
+
 function getChord(key, degree) {
+  debug('getting Chord for key ' + key + ', degree ' + degree)
   switch(key) {
 
     case 'C':
@@ -268,6 +271,7 @@ const sharp_aliases = {
 };
 
 function fifthOf(key) {
+  debug('fifthOfKey getting fifth of ' + key)
   const idx = keys.findIndex((element, inner_idx) => {
     return element === key;
   });

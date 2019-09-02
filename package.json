@@ -1,6 +1,6 @@
 {
   "name": "guitar-theory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,8 @@
     "url": "https://github.com/mark-mikrut-org/guitar-theory/issues"
   },
   "homepage": "https://github.com/mark-mikrut-org/guitar-theory#readme",
-  "description": "Help guitar players with basic theory questions"
+  "description": "Help guitar players with basic theory questions",
+  "dependencies": {
+    "debug": "^4.1.1"
+  }
 }
